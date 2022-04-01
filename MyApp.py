@@ -10,3 +10,5 @@ df = pd.read_csv("https://raw.githubusercontent.com/quantum-apps/mapa/main/data.
 st.text("HOLA MUNDO")
 st.text("la sigiente es una integral")
 st.latex(" \int ")
+st.markdown(" #titulo ")
+st.markdown(" *este es una viñeta* ")
