@@ -18,3 +18,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/quantum-apps/mapa/main/data.
 #st.markdown(" #titulo ")
 #st.markdown(" *este es una viñeta* ")
 #st.markdown(" **negritas** ")
+num1 = st.slider('elige el número 1', 0, 130, 25)
+num2 = st.slider('elige el número 2', 0, 130, 25)
+suma = num1+num2
+st.write("la suma de",num1,"y",num2,"es:",suma)
