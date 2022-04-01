@@ -5,9 +5,9 @@ st.write("el valor de click es ",click)
 
 with st.sidebar:
     num1 = st.slider('elige el número 1', 0, 130, 25)
-num2 = st.slider('elige el número 2', 0, 130, 25)
-suma = num1+num2
-st.write("la suma de",num1,"y",num2,"es:",suma)
+    num2 = st.slider('elige el número 2', 0, 130, 25)
+    suma = num1+num2
+    st.write("la suma de",num1,"y",num2,"es:",suma)
 
 if click==True:
     st.image("https://www.efeverde.com/storage/2018/09/ARCHIVO-foca-monje-EFEverde.jpg")
