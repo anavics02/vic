@@ -2,6 +2,10 @@ import streamlit as st
 st.title("MI PRIMER APP")
 click=st.button("dale click")
 st.write("el valor de click es ",click)
+if click==True:
+    st.image("https://www.efeverde.com/storage/2018/09/ARCHIVO-foca-monje-EFEverde.jpg")
+
+
 #st.button("otro botón")
 import pandas as pd
 #las siguientes tres lineas eran para elprimer ejercicio
