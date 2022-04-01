@@ -8,3 +8,5 @@ df = pd.read_csv("https://raw.githubusercontent.com/quantum-apps/mapa/main/data.
 #st.write(df)
 #st.map(df)
 st.text("HOLA MUNDO")
+st.text("la sigiente es una integral")
+st.latex("/int")
